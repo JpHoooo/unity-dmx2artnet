@@ -17,9 +17,11 @@ Unity 2019.3.0f6或更新版本
 ![WiringDiagram](https://jp-github.oss-cn-shenzhen.aliyuncs.com/unity-dmx2artnet/pic/Wiring%20diagram.png)
 
 ### 如何使用
-* 拿到DMX控制器的默认IP和子网掩码，分别是192.168.1.100和255.255.255.0
-* 手动设置本机Ip地址（要求192.168.1.xxx,不能与控制器的ip地址相同）和子网掩码（要求与控制器的子网掩码相同）
-![ip&mask](https://jp-github.oss-cn-shenzhen.aliyuncs.com/unity-dmx2artnet/pic/ipNsubnetMask.jpg)![ip&Mask](https://jp-github.oss-cn-shenzhen.aliyuncs.com/unity-dmx2artnet/pic/ipAndMask.png)
-
+* 拿到DMX控制器的默认IP和子网掩码，分别是`192.168.1.100`和`255.255.255.0`
+![ip&mask](https://jp-github.oss-cn-shenzhen.aliyuncs.com/unity-dmx2artnet/pic/ipNsubnetMask.jpg)
+* 手动设置本机Ip地址（要求:`192.168.1.xxx`,不能与控制器的ip地址相同,我这里设置为192.168.1.88）和子网掩码（要求与控制器的子网掩码相同，我这里设置为255.255.255.0）
+![ip&Mask](https://jp-github.oss-cn-shenzhen.aliyuncs.com/unity-dmx2artnet/pic/ipAndMask.png)
+* 打开目录`Assets/DMX2ArtNet/Scenes/Test.unity` ,选中摄像机 ，在`ArtNetDMXController`控件上把IPAdress 换成DMX控制器的IP地址
+![component](https://jp-github.oss-cn-shenzhen.aliyuncs.com/unity-dmx2artnet/pic/ipNsubnetMask.jpg)
 
 
