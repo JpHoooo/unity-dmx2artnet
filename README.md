@@ -23,8 +23,14 @@ Unity 2019.3.0f6或更新版本
 * 手动设置本机Ip地址（要求:`192.168.1.xxx`,不能与控制器的ip地址相同,我这里设置为192.168.1.88）和子网掩码（要求与控制器的子网掩码相同，我这里设置为255.255.255.0）  
 
 ![ip&Mask](https://jp-github.oss-cn-shenzhen.aliyuncs.com/unity-dmx2artnet/pic/ipAndMask.png)
-* 打开目录`Assets/DMX2ArtNet/Scenes/Test.unity` ,选中摄像机 ，在`ArtNetDMXController`控件上把IPAdress 换成DMX控制器的IP地址  
+* 打开目录`Assets/DMX2ArtNet/Scenes/Test.unity` ,选中摄像机 ，在`ArtNetDMXController`控件上把`IPAdress`换成DMX控制器的IP地址`(192.168.1.100) ` 
 
 ![component](https://jp-github.oss-cn-shenzhen.aliyuncs.com/unity-dmx2artnet/pic/component.png)
+* Play，然后控制`ArtNetTest`的参数
+
+### 建议
+建议先尝试了解一下DMX的工作原理，再结合Unity去做控制DMX
+***
+## 感谢，如发现错误欢迎指正
 
 
