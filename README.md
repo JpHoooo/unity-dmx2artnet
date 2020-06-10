@@ -10,13 +10,16 @@
 ### 运行环境
 64-bit destop platforms(Windows,macOS)
 
-### 开发环境
-Unity2019.3.0f6
+### 在Unity Editor上运行
+Unity 2019.3.0f6或更新版本
 
 ### 硬件连接方式
 ![WiringDiagram](https://jp-github.oss-cn-shenzhen.aliyuncs.com/unity-dmx2artnet/pic/Wiring%20diagram.png)
 
 ### 如何使用
+* 拿到DMX控制器的默认IP和子网掩码，分别是192.168.1.100和255.255.255.0
+* 手动设置本机Ip地址（要求192.168.1.xxx,不能与控制器的ip地址相同）和子网掩码（要求与控制器的子网掩码相同）
+![ip&mask](https://jp-github.oss-cn-shenzhen.aliyuncs.com/unity-dmx2artnet/pic/ipNsubnetMask.jpg)![ip&Mask](https://jp-github.oss-cn-shenzhen.aliyuncs.com/unity-dmx2artnet/pic/ipAndMask.png)
 
 
 
